@@ -1,0 +1,163 @@
+html
+{
+	font-size:85%;
+}
+#logo
+{
+	padding-top: 1.42857143rem;
+	 width:8rem; 
+	 height:2.57142857rem;
+}
+h1
+{
+	font-size: 2.71428571rem;
+	font-family: 'Open Sans', Sans-serif;
+	display: block;
+	font-weight: 300;
+	color:#555;
+	margin-bottom:0.35714286rem;
+
+}
+h2
+{
+	font-size: 1.35714286rem;
+	font-family: 'Open Sans', Sans-serif;
+	font-weight: 401;
+	display: block;
+	color:#555;
+	margin-bottom: 0.71428571rem;
+	
+}
+.sign
+{
+	width:25rem;
+	height:23.57142857rem;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+	background-color: #f7f7f7;
+}
+#pic
+{
+	height:7.14285714rem;
+	display: block;
+	border-radius:50%;
+	
+}
+#img-wrap
+{
+	padding-top:2.85714286rem;
+
+}
+#user
+{
+	height:3.14285714rem;
+	display: block;
+	margin-top:2.14285714rem;
+	width: 20.64285714rem;
+	padding-left: 0.42857143rem;
+	font-size: 1.14285714rem;
+	font-family: Arial, Sans-serif;
+
+}
+#user:hover
+{
+	border:1px solid #555;
+}
+#user:focus
+{
+	border:1px solid  #4da6ff;
+}
+#bt
+{
+	display:block;
+	margin-top:0.57142857rem;
+	height:2.85714286rem;
+	width:20.64285714rem;
+	background-color: #357ae8;
+	border-radius: 0.28571429rem;
+	border: 1px solid #357ae8;
+	color:white;
+}
+#bt:hover
+{
+	background-color: #1968e6;
+}
+#help
+{
+	float:right;
+	margin-right: 1.92857143rem;
+	margin-top: 0.35714286rem;
+	text-decoration: none;
+	color: #357ae8;
+	font-size: 0.92857143rem;
+}
+#help:hover, #create:hover
+{
+	text-decoration: underline;
+}
+#create
+{
+	display: block;
+	margin-top:1.71428571rem;
+	text-decoration: none;
+	color:#357ae8;
+}
+#tag
+{
+	font-size: 1rem;
+	font-family: Arial, Sans-serif;
+	color:#555;
+}
+footer
+{
+	border-top:1px solid rgba(0,0,0,0.3);
+	margin-top: 5rem;
+	height:0.57142857rem;
+	font-size:0.85714286rem;
+}
+ul li
+{
+	display: inline-block;
+	margin-left:0.71428571rem;
+	font-family: Arial, Sans-serif;
+}
+a
+{
+	text-decoration: none;
+	color:#555;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+#lang
+{
+	float:right;
+	margin-top:-2rem;
+}
+
+@media only screen and (max-width: 640px)
+{
+	html
+	{
+		font-size:14px;
+	}
+	#lang
+	{
+		display:none;
+	}
+	h2
+	{
+		display:none;
+	}
+	ul
+	{
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 800px)
+{
+	html
+	{
+		font-size:10px;
+	}
+}
