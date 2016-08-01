@@ -114,6 +114,10 @@ footer
 	height:0.57142857rem;
 	font-size:0.85714286rem;
 }
+ul
+{
+	height:0.7rem;
+}
 ul li
 {
 	display: inline-block;
